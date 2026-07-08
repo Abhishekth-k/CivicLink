@@ -1,0 +1,6 @@
+{
+  "name": "CIVICLife",
+  "description": "Way Of SmartCity — A comprehensive civic platform connecting Citizens, Social Workers, Managers, and Admins to report, manage, and analyze civic problems using Gemini AI and real-time mapping.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

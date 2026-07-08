@@ -1,0 +1,13 @@
+services:
+  # CIVICLife Full-Stack Node.js Application
+  - type: web
+    name: civiclife-fullstack
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
